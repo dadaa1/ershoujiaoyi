@@ -55,4 +55,47 @@
 }
 #fenlei li{
     display: inline-block;
+    padding: 0 20px;
+}
+#fenlei li.active{
+    color: #fff;
+    background-color: #ef4035;
+}
+#fenlei li>span{
+    color: #ef4035;
+}
+#con .xiangqing>li{
+    width: 230px;
+    border:none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#con .xiangqing>li:nth-of-type(5n){
+    border:none;
+     margin:none;
+     margin-bottom: 10px;
+}
+#con .xiangqing>li:hover{
+    box-shadow: 1px 1px 2px gray,-1px -1px 2px gray;
+}
+#page{
+    height: 40px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#page span{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid gray;
+    min-width: 30px;
+    padding: 5px;
+}
+#page span.active{
+    color: #fff;
+    background-color: #c00;
+    border:none;
+
+}
+#page span:hover{
+    border: 1px solid #c00;
 }
