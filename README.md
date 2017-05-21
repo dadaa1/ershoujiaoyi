@@ -1,7 +1,3 @@
-# ershoujiaoyi
+# 仿写的一个页面
 
-
-
-地对地导弹
-
-renshe 
+[在线地址](http://blog.guodashan.me/ershoujiaoyi/)
